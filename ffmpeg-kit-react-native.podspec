@@ -22,7 +22,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'local' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
-                             '**/FFmpegKitReactNativeModule.h', 'bundle-apple-xcframework-ios/**/*.{h,m,swift}'
+                             '**/FFmpegKitReactNativeModule.h', './prebuilt/bundle-apple-xcframework-ios/**/*.{h,m,swift}'
       ss.vendored_frameworks ='./prebuilt/bundle-apple-framework-ios/ffmpegkit.framework',
                               './prebuilt/bundle-apple-framework-ios/libavcodec.framework',
                               './prebuilt/bundle-apple-framework-ios/libavdevice.framework',
