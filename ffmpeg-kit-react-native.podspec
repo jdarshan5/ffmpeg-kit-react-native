@@ -23,14 +23,14 @@ Pod::Spec.new do |s|
   s.subspec 'local' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                              '**/FFmpegKitReactNativeModule.h'
-      ss.vendored_frameworks = '../../Desktop/FFmpeg-iOS-v6.0.4/ffmpegkit.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libavcodec.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libavdevice.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libavfilter.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libavformat.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libavutil.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libswresample.framework',
-                              '../../Desktop/FFmpeg-iOS-v6.0.4/libswscale.framework'
+      ss.vendored_frameworks ='./prebuilt/bundle-apple-framework-ios/ffmpegkit.framework',
+                              './prebuilt/bundle-apple-framework-ios/libavcodec.framework',
+                              './prebuilt/bundle-apple-framework-ios/libavdevice.framework',
+                              './prebuilt/bundle-apple-framework-ios/libavfilter.framework',
+                              './prebuilt/bundle-apple-framework-ios/libavformat.framework',
+                              './prebuilt/bundle-apple-framework-ios/libavutil.framework',
+                              './prebuilt/bundle-apple-framework-ios/libswresample.framework',
+                              './prebuilt/bundle-apple-framework-ios/libswscale.framework'
       ss.ios.deployment_target = '12.1'
   end
 end
