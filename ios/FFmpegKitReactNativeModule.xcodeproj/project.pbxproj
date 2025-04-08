@@ -7,22 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BBCD00E42DA3E0B000094DCE /* ffmpegkit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00CB2DA3DF0000094DCE /* ffmpegkit.framework */; };
-		BBCD00E52DA3E0B000094DCE /* ffmpegkit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00CB2DA3DF0000094DCE /* ffmpegkit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00E62DA3E0B000094DCE /* libavcodec.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D42DA3DF1000094DCE /* libavcodec.framework */; };
-		BBCD00E72DA3E0B000094DCE /* libavcodec.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D42DA3DF1000094DCE /* libavcodec.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00E82DA3E0B100094DCE /* libavdevice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D32DA3DF1000094DCE /* libavdevice.framework */; };
-		BBCD00E92DA3E0B100094DCE /* libavdevice.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D32DA3DF1000094DCE /* libavdevice.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00EA2DA3E0B100094DCE /* libavfilter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D12DA3DF1000094DCE /* libavfilter.framework */; };
-		BBCD00EB2DA3E0B100094DCE /* libavfilter.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D12DA3DF1000094DCE /* libavfilter.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00EC2DA3E0B100094DCE /* libavformat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D02DA3DF1000094DCE /* libavformat.framework */; };
-		BBCD00ED2DA3E0B100094DCE /* libavformat.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D02DA3DF1000094DCE /* libavformat.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00EE2DA3E0B100094DCE /* libavutil.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D52DA3DF1000094DCE /* libavutil.framework */; };
-		BBCD00EF2DA3E0B100094DCE /* libavutil.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D52DA3DF1000094DCE /* libavutil.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00F02DA3E0B100094DCE /* libswresample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D22DA3DF1000094DCE /* libswresample.framework */; };
-		BBCD00F12DA3E0B100094DCE /* libswresample.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00D22DA3DF1000094DCE /* libswresample.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		BBCD00F22DA3E0B100094DCE /* libswscale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00CF2DA3DF1000094DCE /* libswscale.framework */; };
-		BBCD00F32DA3E0B100094DCE /* libswscale.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = BBCD00CF2DA3DF1000094DCE /* libswscale.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		F4FF95D7245B92E800C19C63 /* FFmpegKitReactNativeModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* FFmpegKitReactNativeModule.swift */; };
 /* End PBXBuildFile section */
 
@@ -36,37 +20,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBCD00F42DA3E0B100094DCE /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				BBCD00E72DA3E0B000094DCE /* libavcodec.framework in Embed Frameworks */,
-				BBCD00F32DA3E0B100094DCE /* libswscale.framework in Embed Frameworks */,
-				BBCD00ED2DA3E0B100094DCE /* libavformat.framework in Embed Frameworks */,
-				BBCD00EB2DA3E0B100094DCE /* libavfilter.framework in Embed Frameworks */,
-				BBCD00E92DA3E0B100094DCE /* libavdevice.framework in Embed Frameworks */,
-				BBCD00F12DA3E0B100094DCE /* libswresample.framework in Embed Frameworks */,
-				BBCD00E52DA3E0B000094DCE /* ffmpegkit.framework in Embed Frameworks */,
-				BBCD00EF2DA3E0B100094DCE /* libavutil.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libFFmpegKitReactNativeModule.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFFmpegKitReactNativeModule.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5891CC2AC0600A0062D /* FFmpegKitReactNativeModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFmpegKitReactNativeModule.m; sourceTree = "<group>"; };
-		BBCD00CB2DA3DF0000094DCE /* ffmpegkit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ffmpegkit.framework; path = "../prebuilt/bundle-apple-framework-ios/ffmpegkit.framework"; sourceTree = "<group>"; };
-		BBCD00CF2DA3DF1000094DCE /* libswscale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libswscale.framework; path = "../prebuilt/bundle-apple-framework-ios/libswscale.framework"; sourceTree = "<group>"; };
-		BBCD00D02DA3DF1000094DCE /* libavformat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavformat.framework; path = "../prebuilt/bundle-apple-framework-ios/libavformat.framework"; sourceTree = "<group>"; };
-		BBCD00D12DA3DF1000094DCE /* libavfilter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavfilter.framework; path = "../prebuilt/bundle-apple-framework-ios/libavfilter.framework"; sourceTree = "<group>"; };
-		BBCD00D22DA3DF1000094DCE /* libswresample.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libswresample.framework; path = "../prebuilt/bundle-apple-framework-ios/libswresample.framework"; sourceTree = "<group>"; };
-		BBCD00D32DA3DF1000094DCE /* libavdevice.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavdevice.framework; path = "../prebuilt/bundle-apple-framework-ios/libavdevice.framework"; sourceTree = "<group>"; };
-		BBCD00D42DA3DF1000094DCE /* libavcodec.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavcodec.framework; path = "../prebuilt/bundle-apple-framework-ios/libavcodec.framework"; sourceTree = "<group>"; };
-		BBCD00D52DA3DF1000094DCE /* libavutil.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libavutil.framework; path = "../prebuilt/bundle-apple-framework-ios/libavutil.framework"; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* FFmpegKitReactNativeModule-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFmpegKitReactNativeModule-Bridging-Header.h"; sourceTree = "<group>"; };
 		F4FF95D6245B92E800C19C63 /* FFmpegKitReactNativeModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FFmpegKitReactNativeModule.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,14 +34,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBCD00E62DA3E0B000094DCE /* libavcodec.framework in Frameworks */,
-				BBCD00F22DA3E0B100094DCE /* libswscale.framework in Frameworks */,
-				BBCD00EC2DA3E0B100094DCE /* libavformat.framework in Frameworks */,
-				BBCD00EA2DA3E0B100094DCE /* libavfilter.framework in Frameworks */,
-				BBCD00E82DA3E0B100094DCE /* libavdevice.framework in Frameworks */,
-				BBCD00F02DA3E0B100094DCE /* libswresample.framework in Frameworks */,
-				BBCD00E42DA3E0B000094DCE /* ffmpegkit.framework in Frameworks */,
-				BBCD00EE2DA3E0B100094DCE /* libavutil.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,23 +55,7 @@
 				B3E7B5891CC2AC0600A0062D /* FFmpegKitReactNativeModule.m */,
 				F4FF95D5245B92E700C19C63 /* FFmpegKitReactNativeModule-Bridging-Header.h */,
 				134814211AA4EA7D00B7C361 /* Products */,
-				BBCD00CA2DA3DEFF00094DCE /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		BBCD00CA2DA3DEFF00094DCE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BBCD00D42DA3DF1000094DCE /* libavcodec.framework */,
-				BBCD00D32DA3DF1000094DCE /* libavdevice.framework */,
-				BBCD00D12DA3DF1000094DCE /* libavfilter.framework */,
-				BBCD00D02DA3DF1000094DCE /* libavformat.framework */,
-				BBCD00D52DA3DF1000094DCE /* libavutil.framework */,
-				BBCD00D22DA3DF1000094DCE /* libswresample.framework */,
-				BBCD00CF2DA3DF1000094DCE /* libswscale.framework */,
-				BBCD00CB2DA3DF0000094DCE /* ffmpegkit.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +68,7 @@
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
-				BBCD00F42DA3E0B100094DCE /* Embed Frameworks */,
+				BB97AEC42DA40285000249E5 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -176,6 +110,26 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BB97AEC42DA40285000249E5 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/ffmpegkit.framework/strip-frameworks.sh\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -285,7 +239,7 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpegKitReactNativeModule/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpegKitReactNativeModule/Frameworks/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -305,7 +259,7 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpegKitReactNativeModule/Frameworks";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/FFmpegKitReactNativeModule/Frameworks/**";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
